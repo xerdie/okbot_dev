@@ -36,4 +36,4 @@ for filename in os.listdir('./modules'):
     if filename.endswith('.py'):
             client.load_extension(f'modules.{filename[:-3]}')
            
-client.run("NzIwNzM2OTY0MTg5MzU2MDQ0.XuKUyQ.xeNOxzgeMlPhR46ueymp80cYQ4Q")
+client.run("token")
